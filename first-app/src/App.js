@@ -1,26 +1,15 @@
 import './App.css';
 
-/*function App() {
-  return (
-    <div className="App">
-      <h1>Hello World !!! </h1>
-      <h2> Learning Ract JS</h2>
-    </div>
-  );
-}*/
 
 function App(){
   const topic = "React";
   const concepts = ["JSX", "Props", "State", "Hook"];
-  // Add array index as the key
-  /*const renderList = concepts.map((item, index) => 
-    <li key={index}>{item}</li>
-    );*/
+  
   return (
     <div className="App">
       {/* JSX code */}
       <h1 id = "header-id"> {topic} is Awesome </h1>
-      {/*{renderList}*/}
+    
       <h5 >{String(true)} ?</h5>
 
       {
