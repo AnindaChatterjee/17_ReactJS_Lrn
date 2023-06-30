@@ -41,7 +41,9 @@ function App(){
             <li key = {index}>
               <h2>{menuItems.title}</h2>
               <p>{menuItems.description}</p>
-              <img src={menuItems.image} alt={menuItems.title}></img>
+              <img src={menuItems.image} 
+                alt={menuItems.title}>
+               </img>
               <h4>{menuItems.price}</h4>
             </li>
           ))

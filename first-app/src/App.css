@@ -17,3 +17,8 @@ li {
   margin: 8px;
   padding: 8px;
 }
+
+img {
+  width: 200px;
+  height: 200px;
+}
