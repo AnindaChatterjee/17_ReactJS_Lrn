@@ -9,18 +9,18 @@ function App(){
 		"title" : "Tiramisu",
     "type" : "Desserts",
 		"description" : "Best Tiramisu in Blr",
-		"image" : "https://picsum.photos/200/205/?random",
+		"image" : "https://picsum.photos/201/200/?random",
 		"price" : "Rs 195",
 	},
 	{
 		"title" : "Litchi Ice Cream",
     "type" : "Desserts",
 		"description" : "Cool Muzaffarpur in hot summer",
-		"image" : "https://picsum.photos/200/210/?random",
+		"image" : "https://picsum.photos/202/200/?random",
 		"price" : "Rs 175",
 	},
 	{
-		"title" : "Death By Chocolate (DBC)",
+		"title" : "Death By Chocolate",
     "type" : "Desserts",
 		"description" : "Enjoy the chocolates",
 		"image" : "https://picsum.photos/200/200/?random",
@@ -35,7 +35,7 @@ function App(){
       {/* JSX code */}
       <h1 id = "header-id"> Desserts Menu</h1>
       {/*{renderList}*/}
-      <ul>
+      <ul className ="container">
         {
           menuItems.map((menuItems,index) => (
             <li key = {index}>
