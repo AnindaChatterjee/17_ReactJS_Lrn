@@ -9,7 +9,7 @@ function App(){
 		"title" : "Tiramisu",
     "type" : "Desserts",
 		"description" : "Best Tiramisu in Blr",
-		"image" : "https://picsum.photos/201/200/?random",
+	  "image" : "https://picsum.photos/201/200/?random",
 		"price" : "Rs 195",
 	},
 	{
