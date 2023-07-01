@@ -76,6 +76,16 @@ const movies = [
     return (
         <div className="movie-container">
             <h2>Movies</h2>
+            <ul className="movies-list">
+                {
+                    movies.map((movie)=>(
+                        <li className ="movie" key = {movie.id}>
+                            <img src ={movie.poster}  alt = {movie.title} />
+                        </li>
+                    )
+                    )
+                }
+            </ul>
         </div>
     )
   }
