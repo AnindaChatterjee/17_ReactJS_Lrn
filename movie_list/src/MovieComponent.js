@@ -1,12 +1,17 @@
 import {movies} from './data/movies.js';
 
+const fetchMovieData = () =>  {
+    return movies;
+}
+
 const MovieComponent = () => {
+    const movieData = fetchMovieData() ;
     return (
         <div className="movie-container">
             <h2>Movies</h2>
             <ul className="movies-list">
                 {
-                    movies.map((movie)=>(
+                    movieData.map((movie)=>(
                         <li className ="movie" key = {movie.id}>
                             <img src ={movie.poster}  alt = {movie.title} />
                             <p>
