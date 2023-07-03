@@ -1,7 +1,8 @@
 const Colorizer = ()=> {
     return(
         <div className ='colorizer'>
-            Colourizer
+            <div className ='box'></div>
+            <button>Change Color</button>
         </div>
     );
 }
