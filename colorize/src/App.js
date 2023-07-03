@@ -1,9 +1,12 @@
 import './App.css';
 
+import Colorizer from './Colorize'
+
+
 function App() {
   return (
     <div className="App">
-      <h1>test</h1>
+      <Colorizer/>
     </div>
   );
 }
